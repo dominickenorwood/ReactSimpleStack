@@ -2,10 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 /*
-    - Look for react modules on page.
-    - Take the data set and add to module props.
-    - Take data-component and mount.
-    - Bootstrap module to element found on page.
+    - Look for react modules on page. (Done)
+    - Take the data set and add to module props. (Done)
+    - Take data-component and mount. (Done)
+    - Bootstrap module to element found on page. (Done)
+    
+    - Hook up to Redux, have modules talk to each other.
+    - Update dependencies.
+    - ( Talk to redux from a non-react module )
+    - Create default Redux state based on data from backend.
 */
 function mountComponents() {
     const components = Array.from(document.querySelectorAll('.react-module'));
