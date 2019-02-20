@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-heigth: 1.7;
+          
+}
+
+main {
+    padding: 10rem;
+}
+
+main > h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main > h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: skyblue;
+}
+
+main > footer {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+main > footer a {
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 3rem;
+    padding: 2rem 4rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+main > footer a:hover {
+    background-color: limegreen;
+}

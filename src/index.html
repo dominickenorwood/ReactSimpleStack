@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React Simple Stack</title>
+  </head>
+  <body>
+      <main>
+
+          <div
+            class="react-module"
+            data-component="SimpleModule"
+            data-url="http://simple-stack.io"
+            data-userid="UyY2HAaxQHQ="
+          >lkerjgheg</div>
+          
+          <h1>React Simple Stack</h1>
+          <h2>Simple Module</h2>
+
+
+          <div id="SimpleModule__Root"></div>
+
+          <div
+            class="react-module"
+            data-component="SimpleModule"
+            data-url="http://simple-stack.io"
+            data-userid="UyY2HAaxQHQ="
+          >lkerjgheg</div>
+
+
+          <h2>Dynamic Module</h2>
+          <div id="DynamicModule__Root"></div>
+          <footer id="buttons"><a href="#" id="mountBtn">Mount</a><a href="#" id="unmountBtn">Unmount</a></footer>
+      </main>
+      
+      <script type="text/javascript" defer>
+        // const simpleConfig = {
+        //   url: 'http://simple-stack.io',
+        //   userid: 'UyY2HAaxQHQ=',
+        //   bootstrap: document.getElementById('SimpleModule__Root'),
+        // }
+        // const simple = new SimpleModule(simpleConfig);
+        // simple.mount();
+
+        const mountBtn = document.getElementById('mountBtn');
+        const unmountBtn = document.getElementById('unmountBtn');
+        mountBtn.addEventListener('click', (event) => {
+          event.preventDefault();
+          // registrationConfig.view = 'login';
+
+
+          // const registration = new HMIRegistration(registrationConfig);
+          // registration.unmount();
+          // registration.mount();
+        });
+
+        unmountBtn.addEventListener('click', (event) => {
+          event.preventDefault();
+          // registrationConfig.view = 'register';
+
+          // const registration = new HMIRegistration(registrationConfig);
+          // registration.unmount();
+          // registration.mount();
+        });
+      </script>
+  </body>
+</html>
